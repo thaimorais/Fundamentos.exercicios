@@ -1,0 +1,197 @@
+header {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(215, 237, 250);
+}
+
+body {
+    background-image: radial-gradient(circle at 2.01% 83.6%, #aab8ff 0, #548cff 50%, #0065ec 100%); 
+}
+
+.Linksnavegacao {
+    border: 1px solid rgb(243, 243, 242);
+    background-color: rgb(39, 85, 112);
+}
+
+.Linksnavegacao ul li :hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.inicio {
+    text-decoration: none;
+    color: white;
+}
+
+.Linksnavegacao ul li {
+    display: inline;
+    margin: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#Conteudo {
+    border: 1px solid rgb(0, 0, 0);
+    height: 1350px;
+}
+
+.Linkyoutube {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    margin-top: 160px;
+    color: white;
+    height: 40px;
+    width: 300px;
+}
+
+#sessao1 {
+    border: 1px solid rgb(243, 243, 242);
+    border-radius: 20px;
+    height: 370px;
+    width: 1020px;
+    margin-left: 400px;
+    background-color: rgb(197, 229, 248);
+}
+
+#sessao1 h3 {
+    margin-left: 40px;
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#foto1 {
+    float: left;
+    width: 350px;
+    border-radius: 80%;
+    padding: 10px;
+}
+
+#texto1 {
+    position: absolute;
+    top: 355px;
+    left: 780px;
+}
+
+#sessao2 {
+    border: 1px solid rgb(243, 243, 242);
+    border-radius: 20px;
+    height: 370px;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: rgb(197, 229, 248);
+}
+
+#sessao2 h3 {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#foto2 {
+    float: left;
+    width: 300px;
+    border-radius: 80%;
+    padding: 10px;
+}
+
+#sessao2 p {
+    position: absolute;
+    left: 385px;
+    top: 700px;
+}
+
+div {
+    display: flex;
+}
+
+#sessao3 {
+    border: 1px solid rgb(243, 243, 242);
+    border-radius: 20px;
+    height: 370px;
+    width: 820px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: right;
+    background-color: rgb(197, 229, 248);
+}
+
+#sessao3 h3 {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#foto3 {
+    float: left;
+    width: 300px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#sessao3 p {
+    position: absolute;
+    left: 1250px;
+    top: 700px;
+}
+
+#sessao4 {
+    border: 1px solid rgb(243, 243, 242);
+    border-radius: 20px;
+    height: 370px;
+    width: 800px;
+    margin-left: 465px;
+    margin-top: 20px;
+    background-color: rgb(197, 229, 248);
+}
+
+#sessao4 h3 {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+#foto4 {
+    float: left;
+    width: 200px;
+    border-radius: 70% 70%;
+    padding: 10px;
+}
+
+#sessao4 p {
+    position: absolute;
+    left: 700px;
+    top: 1130px;
+}
+
+#referencias {
+    height: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 610px;
+    color: white;
+}
+
+.linha {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+p .linha:hover {
+    color: white;
+    text-decoration: underline;
+}
