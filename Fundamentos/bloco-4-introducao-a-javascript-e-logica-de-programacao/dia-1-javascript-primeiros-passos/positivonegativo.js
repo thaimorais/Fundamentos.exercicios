@@ -1,4 +1,4 @@
-let valor = 0;
+const valor = -10;
 
 
 if (valor > 0) {
