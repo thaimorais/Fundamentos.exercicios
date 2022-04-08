@@ -52,3 +52,7 @@ for (let index5 = 1; index5 <= 25; index5 += 1) {
 }
 
 console.log(array)
+
+for (let index6 = 0; index6 <= array.length; index6 += 1) {
+  console.log(index6 / 2)
+}
