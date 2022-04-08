@@ -20,3 +20,12 @@ if (mediaAritimetica > 20) {
 } else if (mediaAritimetica <= 20 ) {
   console.log("Valor menor ou igual a 20")
 }
+
+let maior = 0;
+
+for (let maiorValor = 0; maiorValor < numbers.length; maiorValor += 1) {
+  if (numbers[maiorValor] > maior) {
+    maior = numbers[maiorValor]
+  }
+}
+console.log(maior)
