@@ -10,3 +10,13 @@ for (let index = 0; index < numbers.length; index += 1) {
   soma += numbers[index];
 }
 console.log(soma);
+
+let mediaAritimetica = soma / numbers.length
+
+console.log(mediaAritimetica)
+
+if (mediaAritimetica > 20) {
+  console.log("Valor maior que 20")
+} else if (mediaAritimetica <= 20 ) {
+  console.log("Valor menor ou igual a 20")
+}
