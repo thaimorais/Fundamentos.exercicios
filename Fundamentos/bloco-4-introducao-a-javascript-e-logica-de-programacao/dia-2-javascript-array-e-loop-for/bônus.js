@@ -29,3 +29,18 @@ for (let index3 = 1; index3 < numbers2.length; index3 += 1){
 }
 
 console.log(numbers2)
+
+/* exercicio 3 */
+
+let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let multiplicado = [];
+
+for (let index5 = 0; index5 < numeros.length; index5 += 1){
+  if (index5 + 1 < numeros.length) {
+    multiplicado.push(numeros[index5] * numeros[index5 + 1])
+  } else {
+    multiplicado.push(numeros[index5] * 2)
+  }
+}
+
+console.log(multiplicado)
