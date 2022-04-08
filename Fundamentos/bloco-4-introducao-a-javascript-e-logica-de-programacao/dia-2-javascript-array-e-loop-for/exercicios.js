@@ -35,3 +35,12 @@ for (let index4 = 0; index4 < numbers.length; index4 += 1) {
     console.log("Esses são os números ímpares: ", numbers[index4])
   }
 }
+
+let menor = 500;
+
+for (let menorValor = 0; menorValor < numbers.length; menorValor += 1) {
+  if (numbers[menorValor] < menor) {
+    menor = numbers[menorValor]
+  }
+}
+console.log(menor)
