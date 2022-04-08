@@ -29,3 +29,9 @@ for (let maiorValor = 0; maiorValor < numbers.length; maiorValor += 1) {
   }
 }
 console.log(maior)
+
+for (let index4 = 0; index4 < numbers.length; index4 += 1) {
+  if (numbers[index4] % 2 === 1){
+    console.log("Esses são os números ímpares: ", numbers[index4])
+  }
+}
