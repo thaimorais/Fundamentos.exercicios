@@ -44,3 +44,11 @@ for (let menorValor = 0; menorValor < numbers.length; menorValor += 1) {
   }
 }
 console.log(menor)
+
+let array = [];
+
+for (let index5 = 1; index5 <= 25; index5 += 1) {
+    array.push(index5)
+}
+
+console.log(array)
