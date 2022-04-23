@@ -39,9 +39,9 @@ function createNumbersOfMonth() {
 createNumbersOfMonth()
 
 // Exercício 2
+const divsDeBotoes = document.querySelector('.buttons-container')
 
 function botao1(nomeDoBotao) {
-  const divsDeBotoes = document.querySelector('.buttons-container')
   const botao = document.createElement('button');
   botao.innerHTML = nomeDoBotao;
   botao.id = 'btn-holiday';
@@ -50,7 +50,7 @@ function botao1(nomeDoBotao) {
 
 botao1('Feriados');
 
-// Exercícios 3
+// Exercício 3
 
 function acionarBotao() {
 
@@ -72,3 +72,105 @@ function acionarBotao() {
 }
 
 acionarBotao()
+
+// Exercício 4
+
+function botao2(nomeDoBotao2) {
+  const botaoSexta = document.createElement('button');
+  botaoSexta.id = 'btn-friday'
+  botaoSexta.innerText = 'Sexta-feira'
+  divsDeBotoes.appendChild(botaoSexta)
+}
+
+botao2('Sexta-feira')
+
+// Exercício 5
+
+function acionarBotaoSexta () {
+  const sextaBotao = document.getElementById('btn-friday');
+  sextaBotao.addEventListener('click', mudaCorFriday);
+  const friday = document.querySelectorAll('.friday');
+  
+  function mudaCorFriday() {
+  for (let i = 0; i < friday.length; i += 1) {
+    const diasFriday = friday[i]
+    if (friday[i].innerHTML !== 'SEXTOU!!') {
+      friday[i].innerText = 'SEXTOU!!'
+    } else {
+      friday[i].innerText = diasFriday;
+      }
+    }
+  }
+}
+
+acionarBotaoSexta()
+
+// Exercício 6
+
+const diasDoMes = document.getElementById('days')
+diasDoMes.addEventListener('mouseover', aumentaTamanho)
+
+function aumentaTamanho(evento) {
+  evento.target.style.fontSize = '40px';
+ }
+
+
+diasDoMes.addEventListener('mouseout', voltaTamanho)
+ 
+ function voltaTamanho(evento) {
+   evento.target.style.fontSize = '20px';
+  }
+
+// Exercício 7
+const tasks = document.querySelector('.my-tasks')
+
+function tarefaPersonalizada(nomeDaTarefa) {
+  const tarefa = document.createElement('span');
+  tarefa.innerHTML = 'Cozinhar';
+  tasks.appendChild(tarefa)
+}
+
+tarefaPersonalizada('cozinhar')
+
+// Exercício 8
+const primeiraTarefa = document.getElementsByTagName('span')
+
+function corDaTarefa(cor) {
+  const corFundoTarefa = document.createElement('div')
+  corFundoTarefa.classList = 'task'
+  corFundoTarefa.style.backgroundColor = cor;
+  tasks.appendChild(corFundoTarefa)
+}
+corDaTarefa('blue')
+
+// Exercício 9
+
+const corTarefa = document.querySelector('.task')
+corTarefa.addEventListener('click', adicionaClasse)
+
+function adicionaClasse(evento) {
+    if (corTarefa.className !== 'task selected') {
+      evento.target.className = 'task selected'
+    } else {
+      evento.target.className = 'task'
+    }
+  }
+
+// Exercício 10
+function mudaCor() {
+diasDoMes.addEventListener('click', atribuiTarefa)
+const novaColoracao = document.querySelector('.task').style.backgroundColor
+let selectedTask = document.getElementsByClassName('task selected');
+
+function atribuiTarefa(evento) {
+  for (let i = 0; i < diasDoMes.length; i += 1) {
+    if (diasDoMes[i].style.color === 'rgb(119,119,119') {
+      evento.target.style.color = novaColoracao
+    } else {
+      evento.target.style.color = 'rgb(119,119,119'
+    }
+  }
+}
+}
+
+mudaCor()
