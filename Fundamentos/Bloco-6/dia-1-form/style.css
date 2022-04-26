@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#titulo {
+  width: 60%;
+  margin: auto;
+  border: 1px solid rgb(235, 187, 255);
+  margin-top: 40px;
+}
+
+.cabecalho {
+  text-align: center;
+  color: rgb(173, 108, 233);
+}
+
+#corpo-formulario {
+  width: 50%;
+  margin: auto;
+  border: 2px solid rgb(101, 214, 27);
+  margin-top: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#fullname {
+  padding: 5px;
+  width: 30%;
+  margin-bottom: 7px;
+}
+
+#email {
+  padding: 5px;
+  width: 35%;
+}
+
+#destino {
+  border: 3px solid palevioletred;
+  width: 40%;
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+p {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#motivo {
+  width: 60%;
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#motivoparaganhar {
+  padding: 15px;
+}
+
+#dataviagem {
+  margin-bottom: 15px;
+}
+
+#data {
+  border: 1px solid rgb(183, 181, 181);
+  padding: 3px;
+}

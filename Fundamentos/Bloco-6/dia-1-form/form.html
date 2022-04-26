@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header id="titulo">
+    <h1 class='cabecalho' id="cabecalho1">TrybeTrip</h1>
+    <h3 class='cabecalho' id="cabecalho2">Formulário de Inscrição</h3>
+  </header>
+  <form id="corpo-formulario" method="get">
+  <label for="fullname">Nome completo:
+    <input type="text" name="fullname" id="fullname" placeholder="Insira seu nome completo" required minlength="10" maxlength="40">
+  </label>
+  <label for="email">E-mail:
+    <input type="email" name="email" id="email" placeholder="Insira seu e-mail" required minlength="10" maxlength="50">
+  </label><br>
+  <div id="destino"><p>Para onde gostaria de viajar?</p>
+  <label for="destino1">
+    <input type="radio" id="destino1" name="opcoesdestino">Cidade
+  </label>
+  <label for="destino2">
+    <input type="radio" id="destino2" name="opcoesdestino">Campo
+  </label>
+  <label for="destino3">
+    <input type="radio" id="destino3" name="opcoesdestino">Praia
+  </label>
+  <label for="destino4">
+    <input type="radio" id="destino4" name="opcoesdestino">Montanhas
+  </label>
+</div>
+  <div id="motivo">
+    <label for="motivoparaganhar"><p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+      <textarea name="motivo" id="motivoparaganhar" cols="50" rows="10" maxlength="500"></textarea>
+    </label>
+  </div>
+  <div id="dataviagem">
+  <label for="data">Qual a melhor data para realizar a viagem?
+    <input type="date" name="dataescolhida" id="data" required>
+  </label></div><br>
+  <label for="publicidade">
+    <input type="checkbox" name="publicidade" id="publicidade">  Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+  </label><br>
+  <label for="divulgacao">
+    <input type="checkbox" name="divulgacao" id="divulgacao">  Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+  </label>
+
+</form>
+</body>
+</html>
